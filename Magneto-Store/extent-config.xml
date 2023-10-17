@@ -19,7 +19,7 @@
         <!-- report name - displayed at top-nav -->
         <reportName>Magneto Report
          <![CDATA[
-                <img src='C:\Users\sreek\eclipse-workspace\Magneto\Logo\Magneto.png'/>
+                <img src='http://localhost:8080/job/Magneto_CICD/ws/Magneto-Store\Logo\Magneto.png'/>
             ]]>
         </reportName>
         
