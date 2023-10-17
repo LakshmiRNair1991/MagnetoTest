@@ -10,8 +10,8 @@
       <class name="com.magneto.testCases.IndexPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loadConfig"/>
           <include name="setup"/>
+          <include name="loadConfig"/>
           <include name="afterSuite"/>
           <include name="verifyTitle"/>
         </methods>

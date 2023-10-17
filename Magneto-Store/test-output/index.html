@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\sreek\eclipse-workspace\Magneto\testng.xml</span>
+                    <span>C:\Users\sreek\eclipse-workspace\Magneto-Store\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -150,28 +150,13 @@
                   <span class="method-name">verifyTitle</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [Home Page1] but found [Home Page]
 	at com.magneto.testCases.IndexPageTest.verifyTitle(IndexPageTest.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.magneto.testCases.IndexPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifySignIn">
-                  </a> <!-- VerifySignIn -->
-                  <span class="method-name">VerifySignIn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -187,10 +172,25 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.magneto.testCases.IndexPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignIn">
+                  </a> <!-- VerifySignIn -->
+                  <span class="method-name">VerifySignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sreek\eclipse-workspace\Magneto\testng.xml</span>
+            <span class="header-content">C:\Users\sreek\eclipse-workspace\Magneto-Store\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -276,11 +276,11 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.magneto.testCases.LoginPageTest')
-data.setCell(0, 3, 8961);
+data.setCell(0, 3, 7655);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'VerifySignIn')
 data.setCell(1, 2, 'com.magneto.testCases.IndexPageTest')
-data.setCell(1, 3, 73);
+data.setCell(1, 3, 87);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyTitle')
 data.setCell(2, 2, 'com.magneto.testCases.IndexPageTest')
@@ -289,7 +289,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -310,9 +310,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.magneto.testCases.LoginPageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">loadConfig</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -331,51 +331,51 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup(Edge)</span>
-                <span class="method-start">187 ms</span>
+                <span class="method-start">204 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifySignIn</span>
-                <span class="method-start">4199 ms</span>
+                <span class="method-start">4534 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4276 ms</span>
+                <span class="method-start">4626 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(Edge)</span>
-                <span class="method-start">4379 ms</span>
+                <span class="method-start">4756 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyTitle</span>
-                <span class="method-start">6753 ms</span>
+                <span class="method-start">7612 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7159 ms</span>
+                <span class="method-start">8080 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.magneto.testCases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup(Edge)</span>
-                <span class="method-start">7261 ms</span>
+                <span class="method-start">8226 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">9718 ms</span>
+                <span class="method-start">10183 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18681 ms</span>
+                <span class="method-start">17839 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.magneto.testCases.IndexPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">18814 ms</span>
+                <span class="method-start">17988 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
