@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-17T18:37:22 CEST" name="Suite" finished-at="2023-10-17T18:37:40 CEST" duration-ms="17792">
+  <suite started-at="2023-10-18T11:49:54 CEST" name="Suite" finished-at="2023-10-18T11:50:12 CEST" duration-ms="17734">
     <groups>
       <group name="Sanity">
-        <method signature="IndexPageTest.VerifySignIn()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" name="VerifySignIn" class="com.magneto.testCases.IndexPageTest"/>
+        <method signature="IndexPageTest.VerifySignIn()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" name="VerifySignIn" class="com.magneto.testCases.IndexPageTest"/>
       </group> <!-- Sanity -->
       <group name="smoke">
-        <method signature="IndexPageTest.VerifySignIn()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" name="VerifySignIn" class="com.magneto.testCases.IndexPageTest"/>
-        <method signature="LoginPageTest.loginTest()[pri:0, instance:com.magneto.testCases.LoginPageTest@44c03695]" name="loginTest" class="com.magneto.testCases.LoginPageTest"/>
+        <method signature="IndexPageTest.VerifySignIn()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" name="VerifySignIn" class="com.magneto.testCases.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest()[pri:0, instance:com.magneto.testCases.LoginPageTest@3c46e67a]" name="loginTest" class="com.magneto.testCases.LoginPageTest"/>
       </group> <!-- smoke -->
       <group name="Smoke">
-        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" name="verifyTitle" class="com.magneto.testCases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" name="verifyTitle" class="com.magneto.testCases.IndexPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-10-17T18:37:22 CEST" name="Test-All" finished-at="2023-10-17T18:37:40 CEST" duration-ms="17792">
+    <test started-at="2023-10-18T11:49:54 CEST" name="Test-All" finished-at="2023-10-18T11:50:12 CEST" duration-ms="17734">
       <class name="com.magneto.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.magneto.testCases.LoginPageTest@44c03695]" started-at="2023-10-17T18:37:30 CEST" name="setup" finished-at="2023-10-17T18:37:32 CEST" duration-ms="1957" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.magneto.testCases.LoginPageTest@3c46e67a]" started-at="2023-10-18T11:50:00 CEST" name="setup" finished-at="2023-10-18T11:50:03 CEST" duration-ms="2406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,21 +28,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.magneto.testCases.LoginPageTest@44c03695]" started-at="2023-10-17T18:37:32 CEST" name="loginTest" finished-at="2023-10-17T18:37:39 CEST" duration-ms="7655" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.magneto.testCases.LoginPageTest@3c46e67a]" started-at="2023-10-18T11:50:03 CEST" name="loginTest" finished-at="2023-10-18T11:50:12 CEST" duration-ms="8977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magneto.testCases.LoginPageTest@44c03695]" started-at="2023-10-17T18:37:39 CEST" name="tearDown" finished-at="2023-10-17T18:37:40 CEST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magneto.testCases.LoginPageTest@3c46e67a]" started-at="2023-10-18T11:50:12 CEST" name="tearDown" finished-at="2023-10-18T11:50:12 CEST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.magneto.testCases.LoginPageTest -->
       <class name="com.magneto.testCases.IndexPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:22 CEST" name="loadConfig" finished-at="2023-10-17T18:37:22 CEST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:49:54 CEST" name="loadConfig" finished-at="2023-10-18T11:49:54 CEST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:22 CEST" name="setup" finished-at="2023-10-17T18:37:26 CEST" duration-ms="4329" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:49:54 CEST" name="setup" finished-at="2023-10-18T11:49:58 CEST" duration-ms="3409" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,15 +53,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifySignIn()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:26 CEST" name="VerifySignIn" finished-at="2023-10-17T18:37:26 CEST" duration-ms="87" status="PASS">
+        <test-method signature="VerifySignIn()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:49:58 CEST" name="VerifySignIn" finished-at="2023-10-18T11:49:58 CEST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignIn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:26 CEST" name="tearDown" finished-at="2023-10-17T18:37:26 CEST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:49:58 CEST" name="tearDown" finished-at="2023-10-18T11:49:58 CEST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:26 CEST" name="setup" finished-at="2023-10-17T18:37:29 CEST" duration-ms="2856" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:49:58 CEST" name="setup" finished-at="2023-10-18T11:50:00 CEST" duration-ms="2066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:29 CEST" name="verifyTitle" finished-at="2023-10-17T18:37:29 CEST" duration-ms="11" status="FAIL">
+        <test-method signature="verifyTitle()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:50:00 CEST" name="verifyTitle" finished-at="2023-10-18T11:50:00 CEST" duration-ms="12" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Home Page1] but found [Home Page]]]>
@@ -86,8 +86,10 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at com.magneto.testCases.IndexPageTest.verifyTitle(IndexPageTest.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -96,7 +98,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:848)
 at org.testng.TestRunner.run(TestRunner.java:621)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -118,11 +120,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:30 CEST" name="tearDown" finished-at="2023-10-17T18:37:30 CEST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:50:00 CEST" name="tearDown" finished-at="2023-10-18T11:50:00 CEST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.magneto.testCases.IndexPageTest@5b12b668]" started-at="2023-10-17T18:37:40 CEST" name="afterSuite" finished-at="2023-10-17T18:37:40 CEST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.magneto.testCases.IndexPageTest@5bf0d49]" started-at="2023-10-18T11:50:12 CEST" name="afterSuite" finished-at="2023-10-18T11:50:12 CEST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
