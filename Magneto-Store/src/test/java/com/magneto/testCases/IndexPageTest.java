@@ -38,7 +38,7 @@ public class IndexPageTest extends BaseClass{
 	public void verifyTitle() {
 		Log.startTestCase("verifyTitle");
 		String actTitle=indexPage.getTitle();
-		Assert.assertEquals(actTitle, "Home Page1");
+		Assert.assertEquals(actTitle, "Home Page");
 		Log.endTestCase("verifyTitle");
 	}
 
